@@ -2,13 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 :root {
     --main-background: #eab308;
     --text-color: #5eead4;
+    --cor-boa:#f43f5e;
+    --cor-ruim: #fde047;
 }
 
 body {
     background: var(--main-background);
+    color: var(--text-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+a:hover{
+    color: var(--cor-boa);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul, li {
+    list-style: none;
 }
